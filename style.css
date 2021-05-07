@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(150, 150, 150); /*para colocar (cor) do quadradinho*/
+    text-align: center; /*para centralizar (textos) */
+    display: flex; /*você está espeficicando que cada texto é independente do outro, nao sao tipo a amsm coisa ()*/
+    justify-content: space-between; /*você está dando espaço entre os textos*/
+    font-size: 30px; 
+    position: fixed;
+}
+
+a{
+    color: white;
+    margin: auto; /*centraliza as letras que estão */
+    text-decoration: none; /*tira a linha de baixo da tag A(que é uma tag para tornar algo clicavel)*/
+
+}
+
+.produtos{
+    height: 80vh; /* vh usa para altura de blocos*/
+    width: 100vw; /* vw usa para largura de blocos */
+    background-color: bisque;
+    border-bottom: dotted white 5px; /*para especificar caracteristicas dela é só clocar na frente*/
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto1{
+    background-color: white;
+    height: 60vh;
+    width: 20vw;
+}
+
+.produto2{
+    background-color: white;
+    height: 60vh;
+    width: 20vw;
+}
+
+.produto3{
+    background-color: white;
+    height: 60vh;
+    width: 20vw;
+}
+.produto4{
+    background-color: white;
+    height: 60vh;
+    width: 20vw;
+}
