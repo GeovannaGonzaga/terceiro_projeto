@@ -5,12 +5,12 @@ body{
 .menu{
     height: 100px;
     width: 100%;
-    background-color: rgb(150, 150, 150); /*para colocar (cor) do quadradinho*/
+    background-color: black; /*para colocar (cor) do quadradinho*/
     text-align: center; /*para centralizar (textos) */
     display: flex; /*você está espeficicando que cada texto é independente do outro, nao sao tipo a amsm coisa ()*/
     justify-content: space-between; /*você está dando espaço entre os textos*/
     font-size: 30px; 
-    position: fixed;
+    position: fixed; /*você esta falando que a (<div>menu) do site vai ser fixa na pagina */
 }
 
 a{
@@ -23,32 +23,50 @@ a{
 .produtos{
     height: 80vh; /* vh usa para altura de blocos*/
     width: 100vw; /* vw usa para largura de blocos */
-    background-color: bisque;
+    background-color: rgb(226, 225, 225);
     border-bottom: dotted white 5px; /*para especificar caracteristicas dela é só clocar na frente*/
-    padding-top: 120px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 120px; /*voce esta colocando a pocentagem que voce tirou da tela toda, voce fez isso por causa do espaco ocupado do menu*/
+    display: flex; /*você está espeficicando que cada bloco é independente do outro, nao sao tipo a msm coisa ()*/
+    justify-content: space-between; /*você está dando espaço entre os blocos*/
 }
 
-.produto1{
-    background-color: white;
+.produto1{ 
+    background-color: rgb(226, 225, 225);
     height: 60vh;
     width: 20vw;
+    margin: auto;
+    text-align: center;
+    /* margin-top: -0; */ /*>>para colocar ela no topo da margem*/
 }
 
 .produto2{
-    background-color: white;
+    background-color:rgb(226, 225, 225);
     height: 60vh;
     width: 20vw;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;   
 }
 
 .produto3{
-    background-color: white;
+    background-color: rgb(226, 225, 225);
     height: 60vh;
     width: 20vw;
+    margin: auto;
+    text-align: center;
 }
 .produto4{
-    background-color: white;
+    background-color: rgb(226, 225, 225);
     height: 60vh;
     width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+button{
+    background-color: black;
 }
