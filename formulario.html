@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulario.css">
     <title> Meu blog</title>
 </head>
 <body>
-    <form action="/action_page.php" method="POST"> <!-- ESTUDAR CASO QUEIRA SABER SOBRE BACK END -->
-        <label for="name"> Nome:</label>
-        <input type="text" id="name" name="name"><br><br>
+    <form> <!--action="/action_page.php" method="POST" (colocando dentro de form voce manda os trem pra back andS)--> <!-- ESTUDAR CASO QUEIRA SABER SOBRE BACK END -->
+        <label for="name"> Nome Completo</label>
+        <input type="text" id="name" name="name" placeholder="Nome:"><br><br> <!-- placeholder usado para você escrever algo dentrp -->
 
-        <label for="email"> E-mail:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <label for="email"> E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:"><br><br>
 
-        <label for="password"> Senha:</label>
-        <input type="password" id="password" name="Senha"><br><br>
+        <label for="password"> Senha</label>
+        <input type="password" id="password" name="Senha" placeholder="Senha:"><br><br> <!-- (id e name) é usado para você espesificar pra Back and que é importante-->
         
-        <input type="submit" value="Entrar">
-      </form>
-
-
+        <button type="submit"> Entrar </button> <br><br>
+        <a href="index.html" > Voltar </a> 
+        </form>
 </body>
 </html>

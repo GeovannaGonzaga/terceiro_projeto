@@ -25,7 +25,7 @@ a{
     width: 100vw; /* vw usa para largura de blocos */
     background-color: rgb(226, 225, 225);
     border-bottom: dotted white 5px; /*para especificar caracteristicas dela é só clocar na frente*/
-    padding-top: 120px; /*voce esta colocando a pocentagem que voce tirou da tela toda, voce fez isso por causa do espaco ocupado do menu*/
+    padding-top: 100px; /*voce esta colocando a pocentagem que voce tirou da tela toda, voce fez isso por causa do espaco ocupado do menu*/
     display: flex; /*você está espeficicando que cada bloco é independente do outro, nao sao tipo a msm coisa ()*/
     justify-content: space-between; /*você está dando espaço entre os blocos*/
 }
@@ -33,7 +33,7 @@ a{
 .produto1{ 
     background-color: rgb(226, 225, 225);
     height: 60vh;
-    width: 20vw;
+    width: 19vw;
     margin: auto;
     text-align: center;
     /* margin-top: -0; */ /*>>para colocar ela no topo da margem*/
@@ -42,7 +42,7 @@ a{
 .produto2{
     background-color:rgb(226, 225, 225);
     height: 60vh;
-    width: 20vw;
+    width: 18.25vw;
     margin: auto;
     text-align: center;
     font-weight: bold;   
@@ -51,14 +51,14 @@ a{
 .produto3{
     background-color: rgb(226, 225, 225);
     height: 60vh;
-    width: 20vw;
+    width: 18.90vw;
     margin: auto;
     text-align: center;
 }
 .produto4{
     background-color: rgb(226, 225, 225);
     height: 60vh;
-    width: 20vw;
+    width: 18.25vw;
     margin: auto;
     text-align: center;
 }
@@ -69,4 +69,7 @@ a{
 
 button{
     background-color: black;
+}
+.valor{
+    font-size: 20px;
 }
